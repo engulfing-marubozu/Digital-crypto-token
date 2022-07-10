@@ -1,0 +1,5 @@
+service : {
+  check_balance: (principal) -> (nat) query;
+  free_tokens: () -> (text);
+  transfer: (principal, nat) -> (text);
+}
